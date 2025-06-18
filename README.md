@@ -10,6 +10,10 @@ strength indicator (RSSI) prediction. Experiments conducted on both real-world a
 SwiftWRF can reconstruct WRF spectra up to 500x faster than existing state-of-the-art methods, while significantly enhancing its signal
 quality
 
+![Overview of SwiftWRF. For illustration, we present the operating pipeline for the TX-moving scenario (top). The bottom left depicts the
+architecture of deformable 2DGS, while the bottom right illustrates the spectrum rasterization process.](./img/a.png)
+
+
 ## **Requirements**
 
 Before running the code, install the required dependencies:
