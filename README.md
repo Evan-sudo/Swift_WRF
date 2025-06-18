@@ -55,7 +55,7 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/D
 -Release training code for RSSI prediction.
 
 ## **Citation**
-If you find our work helpful, please consider citing our work:
+If you find our work helpful, please cite as follows:
 ```
 @misc{liu2025rasterizingwirelessradiancefield,
       title={Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting}, 
