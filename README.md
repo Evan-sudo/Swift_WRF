@@ -1,6 +1,7 @@
 # **Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
 
-
+- **Paper:** [Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting](https://arxiv.org/pdf/2506.12787)
+- **Project Page:** [https://evan-sudo.github.io/swiftwrf/](https://evan-sudo.github.io/swiftwrf/)
 
 We propose SwiftWRF, a deformable 2D Gaussian splatting framework that synthesizes WRF spectra at arbitrary positions under
 single-sided transceiver mobility. SwiftWRF employs CUDA-accelerated rasterization to render spectra at over 100k FPS and uses the
