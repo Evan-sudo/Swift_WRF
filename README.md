@@ -1,6 +1,6 @@
 # **Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
 
-[**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://evan-sudo.github.io/data/)
+[**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://github.com/xiaoqixiaowei/swiftWRF-dataset)
 
 We propose SwiftWRF, a deformable 2D Gaussian splatting framework that synthesizes WRF spectra at arbitrary positions under
 single-sided transceiver mobility. SwiftWRF employs CUDA-accelerated rasterization to render spectra at over 100k FPS and uses the
@@ -33,6 +33,7 @@ Before running the experiments, you need to download the **NeRF2-s23** and **Our
 
 
 - **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file)
+- **Our customized data**: [SwiftWRF](https://github.com/xiaoqixiaowei/swiftWRF-dataset)
 
 After downloading, place the dataset inside the `datasets/` directory before proceeding with training or evaluation.
 
@@ -49,9 +50,6 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/D
 --model_path "./checkpoints/"
 ```
 ## **TODO**
--Release customized datasets.
-
-
 -Release training code for RSSI prediction.
 
 ## **Citation**
