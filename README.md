@@ -33,27 +33,19 @@ Before running the experiments, you need to download the **NeRF2-s23** and **Our
 After downloading, place the dataset inside the `datasets/` directory before proceeding with training or evaluation.
 
 ## **Startup**
-To run **Deformed 2D Gaussian Splatting (2DGS)**, execute the following command:
+To run **SwiftWRF**, execute the following command:
 
 ```
-sh ./scripts/D2GV/train.sh /path/to/your/dataset
+./scripts/D2GV/train.sh <yourpath>/datasets/nerf2
 ```
 
-To run **Deformed 2D Gaussian Splatting (2DGS)** with learnable pruning, execute the following command:
+To run **SwiftWRF** with loaded models, add the following command to ./scripts/D2GV/train.sh:
 
 ```
-sh ./scripts/D2GV/Comp.sh /path/to/your/dataset
+--model_path "./checkpoints/"
 ```
 
-Make sure to replace `/path/to/your/dataset` with the actual dataset path.
 
-e.g. :
-
-```
-./scripts/D2GV/train.sh ../D2GV/dataset/bunny/bunny_1
-```
-
-For bunny, we set the number of Gaussians to be 20000 while for Davis and UVG we set it as 35000.
 
 
 
