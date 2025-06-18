@@ -46,7 +46,24 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/D
 ```
 ## **TODO**
 -Release customized datasets.
+
+
 -Release training code for RSSI prediction.
 
+## **Citation**
+If you find our work helpful, please consider citing our work:
+```
+@misc{liu2025rasterizingwirelessradiancefield,
+      title={Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting}, 
+      author={Mufan Liu and Cixiao Zhang and Qi Yang and Yujie Cao and Yiling Xu and Yin Xu and Shu Sun and Mingzeng Dai and Yunfeng Guan},
+      year={2025},
+      eprint={2506.12787},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.12787}, 
+}
+```
 
+
+## Acknowledgement
 Some source code of ours is borrowed from [GaussianImage](https://github.com/Xinjie-Q/GaussianImage) and [D-3DGS](https://github.com/ingra14m/Deformable-3D-Gaussians). We sincerely appreciate the excellent works of these authors.
