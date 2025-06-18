@@ -28,7 +28,7 @@ Before running the experiments, you need to download the **NeRF2-s23** and **Our
 
 
 
-- **NeRF2-s23**: See [NeRF2]([https://ultravideo.fi/dataset.html](https://connectpolyu-my.sharepoint.com/personal/20032132r_connect_polyu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F20032132r%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2FNeRF2%2DDataset&ga=1))
+- **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file)
 
 After downloading, place the dataset inside the `datasets/` directory before proceeding with training or evaluation.
 
