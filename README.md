@@ -8,7 +8,8 @@ lightweight MLP to model the deformation of 2D Gaussians, effectively capturing 
 spectrum synthesis, the efficacy of SwiftWRF is further underscored in its applications in angle-of-arrival (AoA) and received signal
 strength indicator (RSSI) prediction. Experiments conducted on both real-world and synthetic indoor scenes demonstrate that
 SwiftWRF can reconstruct WRF spectra up to 500x faster than existing state-of-the-art methods, while significantly enhancing its signal
-quality
+quality.
+
 
 ![Overview of SwiftWRF. For illustration, we present the operating pipeline for the TX-moving scenario (top). The bottom left depicts the
 architecture of deformable 2DGS, while the bottom right illustrates the spectrum rasterization process.](./img/a.png)
