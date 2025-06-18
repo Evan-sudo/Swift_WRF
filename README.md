@@ -24,25 +24,11 @@ pip install -r requirements.txt
 The `gsplat` module is implemented based on [GaussianImage](https://github.com/Xinjie-Q/GaussianImage). Please ensure it is correctly installed before proceeding.
 
 ## **Dataset**
-Before running the experiments, you need to download the **UVG** and **Davis** datasets.  
-Ensure that the dataset is structured correctly:
+Before running the experiments, you need to download the **NeRF2-s23** and **Our customized** datasets.  
 
-```
-dataset/
-│── Bunny/
-│   ├── bunny_1/
-│   │   ├── f00001.png
-│   │   ├── f00002.png
-│   │   ├── f00003.png
-│   │   ├── ...
-│   ├── bunny_2/
-│   │   ├── f00001.png
-│   │   ├── f00002.png
-│   │   ├── f00003.png
-│── UVG/
-```
 
-- **UVG dataset**: Download from [UVG Dataset](https://ultravideo.fi/dataset.html)
+
+- **NeRF2-s23**: See [NeRF2]([https://ultravideo.fi/dataset.html](https://connectpolyu-my.sharepoint.com/personal/20032132r_connect_polyu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F20032132r%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2FNeRF2%2DDataset&ga=1))
 
 After downloading, place the dataset inside the `datasets/` directory before proceeding with training or evaluation.
 
@@ -69,8 +55,6 @@ e.g. :
 
 For bunny, we set the number of Gaussians to be 20000 while for Davis and UVG we set it as 35000.
 
-**Visual Quality Comparison**
 
-![Our method achieves best quality compared to competitive INR-based and GS-based methods.](./img/vis.png)
 
 Some source code of ours is borrowed from [GaussianImage](https://github.com/Xinjie-Q/GaussianImage) and [D-3DGS](https://github.com/ingra14m/Deformable-3D-Gaussians). We sincerely appreciate the excellent works of these authors.
