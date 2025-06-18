@@ -44,9 +44,9 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/D
 ```
 --model_path "./checkpoints/"
 ```
-
-
-
+## **TODO**
+-Release customized datasets.
+-Release training code for RSSI prediction.
 
 
 Some source code of ours is borrowed from [GaussianImage](https://github.com/Xinjie-Q/GaussianImage) and [D-3DGS](https://github.com/ingra14m/Deformable-3D-Gaussians). We sincerely appreciate the excellent works of these authors.
