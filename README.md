@@ -11,8 +11,7 @@ SwiftWRF can reconstruct WRF spectra up to 500x faster than existing state-of-th
 quality.
 
 
-![Overview of SwiftWRF. For illustration, we present the operating pipeline for the TX-moving scenario (top). The bottom left depicts the
-architecture of deformable 2DGS, while the bottom right illustrates the spectrum rasterization process.](./img/a.png)
+![Overview of SwiftWRF.](./img/a.png)
 
 
 ## **Requirements**
