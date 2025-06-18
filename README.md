@@ -13,7 +13,7 @@ quality.
 
 ![Overview of SwiftWRF.](./img/a.png)
 
-
+![Visual comparison of SwiftWRF.](./img/b.png)
 ## **Requirements**
 
 Before running the code, install the required dependencies:
