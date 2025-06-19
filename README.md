@@ -1,6 +1,6 @@
 # 🚀**SwiftWRF**
 
-official Pytorch implementation of: rasterizing wireless radiance field via deformable 2D Gaussian splatting.
+Official Pytorch implementation of: rasterizing wireless radiance field via deformable 2D Gaussian splatting.
 
 ## A fast yet efficient wireless radiance field modeling method with over **10k FPS!**
 
