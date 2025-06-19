@@ -2,16 +2,18 @@
 
 [**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
 
-**Abstract**: We propose SwiftWRF, a deformable 2D Gaussian splatting framework that synthesizes WRF spectra at arbitrary positions under
+## ⚡️**Overview**
+
+![Overview of SwiftWRF.](./img/a.png)
+
+We propose SwiftWRF, a deformable 2D Gaussian splatting framework that synthesizes WRF spectra at arbitrary positions under
 single-sided transceiver mobility. SwiftWRF employs CUDA-accelerated rasterization to render spectra at over 100k FPS and uses the
 lightweight MLP to model the deformation of 2D Gaussians, effectively capturing mobility-induced WRF variations. In addition to novel
 spectrum synthesis, the efficacy of SwiftWRF is further underscored in its applications in angle-of-arrival (AoA) and received signal
 strength indicator (RSSI) prediction.
-
-
-![Overview of SwiftWRF.](./img/a.png)
-
+## ⚡️**Performance**
 ![Visual comparison of SwiftWRF.](./img/b.png)
+
 ## ❓**Requirements**
 
 Before running the code, install the required dependencies:
