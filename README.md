@@ -45,7 +45,7 @@ To run **SwiftWRF**, execute the following command:
 ./scripts/train.sh <yourpath>/datasets/nerf2
 ```
 
-To run **SwiftWRF** with loaded models, add the following command to ./scripts/D2GV/train.sh:
+To run **SwiftWRF** with loaded models, add the following command to ./scripts/train.sh:
 
 ```
 --model_path "./checkpoints/"
