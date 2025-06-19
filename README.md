@@ -1,4 +1,4 @@
-# **Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
+# 🚀**Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
 
 [**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
 
@@ -14,7 +14,7 @@ quality.
 ![Overview of SwiftWRF.](./img/a.png)
 
 ![Visual comparison of SwiftWRF.](./img/b.png)
-## **Requirements**
+## ❓**Requirements**
 
 Before running the code, install the required dependencies:
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 The `gsplat` module is implemented based on [GaussianImage](https://github.com/Xinjie-Q/GaussianImage). Please ensure it is correctly installed before proceeding.
 
-## **Dataset**
+## 📖**Dataset**
 Before running the experiments, you need to download the **NeRF2-s23** and **Our customized** datasets.  
 
 - **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file)
@@ -38,7 +38,7 @@ The SwiftWRF dataset comprises three indoor scenes: bedroom, conference, and off
 
 After downloading, place the dataset inside the `datasets/` directory, e.g., datasets/NeRF2, before proceeding with training or evaluation.
 
-## **Startup**
+## 🏃**Startup**
 To run **SwiftWRF**, execute the following command:
 
 ```
@@ -50,10 +50,10 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/t
 ```
 --model_path "./checkpoints/"
 ```
-## **TODO**
+## ❕**TODO**
 -Release training code for RSSI prediction.
 
-## **Citation**
+## 📑**Citation**
 If you find our work helpful, please cite as follows:
 ```
 @misc{liu2025rasterizingwirelessradiancefield,
@@ -68,5 +68,5 @@ If you find our work helpful, please cite as follows:
 ```
 
 
-## Acknowledgement
+## 😯Acknowledgement
 Some source code of ours is borrowed from [GaussianImage](https://github.com/Xinjie-Q/GaussianImage) and [D-3DGS](https://github.com/ingra14m/Deformable-3D-Gaussians). We sincerely appreciate the excellent works of these authors.
