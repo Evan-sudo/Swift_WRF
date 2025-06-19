@@ -11,6 +11,8 @@ fi
 for num_points in 10000
 do
 CUDA_VISIBLE_DEVICES=2 python train_deform.py -d $data_path \
---data_name bunny --model_name GaussianImage_Cholesky --num_points $num_points --iterations 600000 --model_path "./checkpoints/"
+--data_name bunny --model_name GaussianImage_Cholesky --num_points $num_points --iterations 600000 
+
+#--model_path "./checkpoints/"
 done
  
