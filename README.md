@@ -32,6 +32,8 @@ Before running the experiments, you need to download the **NeRF2-s23** and **Our
 
 - **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file)
 - **Our customized data**: [SwiftWRF](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
+
+
 The SwiftWRF dataset comprises three indoor scenes: bedroom, conference, and office; each captured under either a TX-moving or RX-moving setting. Each scene includes approximately 6,000 spectra, and the dataset is organized following the structure of NeRF2.
 
 After downloading, place the dataset inside the `datasets/` directory, e.g., datasets/NeRF2, before proceeding with training or evaluation.
