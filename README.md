@@ -42,7 +42,7 @@ After downloading, place the dataset inside the `datasets/` directory, e.g., dat
 To run **SwiftWRF**, execute the following command:
 
 ```
-./scripts/D2GV/train.sh <yourpath>/datasets/nerf2
+./scripts/train.sh <yourpath>/datasets/nerf2
 ```
 
 To run **SwiftWRF** with loaded models, add the following command to ./scripts/D2GV/train.sh:
