@@ -1,6 +1,6 @@
 # **Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
 
-[**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://github.com/xiaoqixiaowei/swiftWRF-dataset)
+[**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
 
 We propose SwiftWRF, a deformable 2D Gaussian splatting framework that synthesizes WRF spectra at arbitrary positions under
 single-sided transceiver mobility. SwiftWRF employs CUDA-accelerated rasterization to render spectra at over 100k FPS and uses the
@@ -33,7 +33,7 @@ Before running the experiments, you need to download the **NeRF2-s23** and **Our
 
 
 - **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file)
-- **Our customized data**: [SwiftWRF](https://github.com/xiaoqixiaowei/swiftWRF-dataset)
+- **Our customized data**: [SwiftWRF](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
 
 After downloading, place the dataset inside the `datasets/` directory before proceeding with training or evaluation.
 
