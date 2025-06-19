@@ -6,9 +6,7 @@
 single-sided transceiver mobility. SwiftWRF employs CUDA-accelerated rasterization to render spectra at over 100k FPS and uses the
 lightweight MLP to model the deformation of 2D Gaussians, effectively capturing mobility-induced WRF variations. In addition to novel
 spectrum synthesis, the efficacy of SwiftWRF is further underscored in its applications in angle-of-arrival (AoA) and received signal
-strength indicator (RSSI) prediction. Experiments conducted on both real-world and synthetic indoor scenes demonstrate that
-SwiftWRF can reconstruct WRF spectra up to 500x faster than existing state-of-the-art methods, while significantly enhancing its signal
-quality.
+strength indicator (RSSI) prediction.
 
 
 ![Overview of SwiftWRF.](./img/a.png)
