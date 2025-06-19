@@ -1,4 +1,6 @@
-# 🚀**Rasterizing Wireless Radiance Field via Deformable 2D Gaussian Splatting**
+# 🚀**SwiftWRF**
+
+## A fast yet efficient wireless radiance field modeling method with over **10k FPS!**
 
 [**Paper**](https://arxiv.org/pdf/2506.12787)｜[**Project Page**](https://evan-sudo.github.io/swiftwrf/)｜[**Data**](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=iLQE6W)
 
