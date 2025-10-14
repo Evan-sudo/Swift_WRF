@@ -35,7 +35,7 @@ The `gsplat` module is implemented based on [GaussianImage](https://github.com/X
 Before running the experiments, you need to download the **NeRF2-s23** and **Our customized** datasets.  
 
 - **NeRF2-s23**: See [NeRF2](https://github.com/XPengZhao/NeRF2?tab=readme-ov-file);
-- **Our customized data**: [SwiftWRF](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=NrBUFI). Since we assume a fixed orientation, the dataset does not include orientation.
+- **Our customized data**: [SwiftWRF](https://1drv.ms/f/c/b1b302e6d09c4153/EpCJ4-YrQjZGgOMjYdWOFTQBQ9tqdCVqmRm-s7iU0mZkJA?e=REWFlL). Since we assume a fixed orientation, the dataset does not include orientation.
 
 
 The SwiftWRF dataset comprises three indoor scenes: bedroom, conference, and office; each captured under either a TX-moving or RX-moving setting. Each scene includes approximately 6,000 spectra, and the dataset is organized following the structure of NeRF2.
