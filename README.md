@@ -55,7 +55,8 @@ To run **SwiftWRF** with loaded models, add the following command to ./scripts/t
 --model_path "./checkpoints/"
 ```
 ## ❕**TODO**
--Release training code for RSSI prediction.
+
+- Release training code for RSSI prediction.
 
 ## 📑**Citation**
 If you find our work helpful, please cite as follows:
